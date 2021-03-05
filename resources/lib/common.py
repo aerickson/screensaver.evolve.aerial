@@ -2,7 +2,7 @@ import datetime, json, os, xbmc, xbmcaddon, xbmcgui, xbmcvfs
 
 #set true global variables
 addon = xbmcaddon.Addon()
-path = addon.getAddonInfo("path").decode("utf-8")
+path = addon.getAddonInfo("path")
 version = addon.getAddonInfo('version')
 cwd = os.path.dirname(__file__)
 dialog = xbmcgui.Dialog()
